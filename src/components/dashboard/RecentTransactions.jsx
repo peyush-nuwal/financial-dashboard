@@ -12,9 +12,9 @@ const transactions = [
 
 export const RecentTransactions = () => {
   return (
-    <div className="col-span-12 p-4 rounded border border-stone-300">
+    <div className="min-w-full flex-1  p-4 rounded border border-stone-300">
       <div className="mb-4 flex items-center justify-between">
-        <h3 className="flex items-center gap-1.5 font-medium">
+        <h3 className="flex items-center gap-1.5 text-sm lg:text-base font-medium">
           <FiDollarSign /> Recent Transactions
         </h3>
         <button className="text-sm text-violet-500 hover:underline">
@@ -44,7 +44,7 @@ const TableHead = () => (
   <thead>
     <tr className="text-sm font-normal text-stone-500">
       <th className="text-start p-1.5">Customer ID</th>
-      <th className="text-start p-1.5">SKU</th>
+      <th className="max-lg:hidden text-start p-1.5">SKU</th>
       <th className="text-start p-1.5">Date</th>
       <th className="text-start p-1.5">Price</th>
       <th className="w-8"></th>
@@ -59,7 +59,7 @@ const TableRow = ({ cusId, sku, date, price, order }) => (
         {cusId} <FiArrowUpRight />
       </a>
     </td>
-    <td className="p-1.5">{sku}</td>
+    <td className="max-lg:hidden  p-1.5">{sku}</td>
     <td className="p-1.5">{date}</td>
     <td className="p-1.5">{price}</td>
     <td className="w-8">

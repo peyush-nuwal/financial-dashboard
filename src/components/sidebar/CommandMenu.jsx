@@ -28,7 +28,7 @@ const CommandMenu = ({ open, setOpen }) => {
       <DialogTitle className="sr-only">Command Menu</DialogTitle>
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-full max-w-lg mx-auto mt-12 bg-white rounded-lg shadow-x; border-stone-300 border overflow-hidden "
+        className="w-full max-w-sm lg:max-w-lg mx-auto mt-12 bg-white rounded-lg shadow-x; border-stone-300 border overflow-hidden "
       >
         <Command.Input
           value={value}

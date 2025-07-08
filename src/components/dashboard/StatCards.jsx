@@ -2,7 +2,7 @@ import React from "react";
 import { FiTrendingDown, FiTrendingUp } from "react-icons/fi";
 export const StatCards = () => {
   return (
-    <>
+    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 ">
       <Card
         title="Gross Revenue"
         value="$120,054.24"
@@ -24,17 +24,17 @@ export const StatCards = () => {
         trend="up"
         period="Previous 365 days"
       />
-    </>
+    </div>
   );
 };
 
 const Card = ({ title, value, pillText, trend, period }) => {
   return (
-    <div className="col-span-4 p-4  rounded border border-stone-300">
+    <div className=" col-span-1 min-w-full p-4  rounded border border-stone-300">
       <div className="flex mb-8 items-start justify-between">
         <div>
           <h3 className="text-stone-500 mb-2 text-sm">{title}</h3>
-          <p className="text-3xl font-semibold">{value}</p>
+          <p className="text-2xl lg:text-3xl font-semibold">{value}</p>
         </div>
 
         <span
