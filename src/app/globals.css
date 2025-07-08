@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+
+
+/* Chrome, Safari, Edge */
+.thin-scroller::-webkit-scrollbar {
+  width: 2px;
+}
+
+.thin-scroller::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.thin-scroller::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* subtle color */
+  border-radius: 10px;
+}
+
+/* Firefox */
+.thin-scroller {
+  scrollbar-width: thin;       /* makes it thin */
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* thumb and track */
+}

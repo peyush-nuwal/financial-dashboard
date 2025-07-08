@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💸 Financial Dashboard
+🌐 [Live Site](https://financial-dashboard-taupe-one.vercel.app/)
 
-## Getting Started
+A minimalist and modern financial dashboard built with **React JS** — crafted to visualize usage and transaction data using smooth UI elements and interactive charts.
 
-First, run the development server:
+<div align="center">
+  <img src="./public/s1.png" alt="Dashboard Screenshot 1" width="100%" />
+  <img src="./public/s2.png" alt="Dashboard Screenshot 2" width="100%" />
+  <img src="./public/s3.png" alt="Dashboard Screenshot 3" width="100%" />
+</div>
 
+---
+
+### 🚀 Live Demo
+
+> Coming soon... (or deploy on Vercel/Netlify and drop the link here)
+
+---
+
+### ✨ Features
+
+- ⚡ **Command palette (cmdk)** for quick navigation and interaction
+- 📊 **Recharts** for clean, responsive data visualizations (Radar, Line, etc.)
+- 💳 Recent transactions and usage views
+- 🎯 Minimalist design with Tailwind CSS and React Icons
+- 💻 Fully responsive — works on desktop and mobile
+
+---
+
+
+### 🛠️ Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge&logo=recharts&logoColor=white)
+![cmdk](https://img.shields.io/badge/cmdk-000000?style=for-the-badge&logo=command&logoColor=white)
+![React Icons](https://img.shields.io/badge/React_Icons-888888?style=for-the-badge&logo=react&logoColor=white)
+
+
+---
+
+
+## 🎥 Demo
+
+Or view the live site:  
+🌐 [financial-dashboard-taupe-one.vercel.app/](https://financial-dashboard-taupe-one.vercel.app/)
+
+## 🛠 Installation & Setup
+
+To run this dashboard locally, follow these steps:
+
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/peyush-nuwal/financial-dashboard.git
+cd financial-dashboard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. **Start the development Server**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Open your browser and navigate to:**
+```bash
+http://localhost:3000
+```
 
-## Learn More
+## 📬 Contact
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Portfolio: [https://peyush-nuwal-portfolio.vercel.app/](https://peyush-nuwal-portfolio.vercel.app/)
+- LinkedIn: [linkedin.com/in/peyush-nuwal](https://linkedin.com/in/peyush-nuwal)
+- Email: piyushnawal19@gmail.com
